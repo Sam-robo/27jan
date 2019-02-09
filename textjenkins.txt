@@ -1,8 +1,0 @@
-node {
-   stage('build'){
-       git("https://github.com/Sam-robo/27jan.git")
-}
-    stage('deploye'){
-         echo('this is deploye')
-    }
-}
